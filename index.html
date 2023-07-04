@@ -4,18 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Biografia</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-EXAMPLE_HASH" crossorigin="anonymous" />
   <style>
     body {
       font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
+      background: linear-gradient(to bottom, #333, #999);
       padding: 20px;
     }
     h1 {
-      color: #333;
+      color: #fff;
       text-align: center;
     }
     p {
-      color: #666;
+      color: #fff;
       line-height: 1.5;
     }
     .social-links {
@@ -31,29 +32,32 @@
       background-color: #333;
       border-radius: 5px;
     }
+    .social-links a i {
+      margin-right: 5px;
+    }
+    .social-links a.facebook i {
+      color: #3b5998;
+    }
+    .social-links a.instagram i {
+      color: #c13584;
+    }
+    .social-links a.linkedin i {
+      color: #0e76a8;
+    }
+    .social-links a.twitter i {
+      color: #1da1f2;
+    }
   </style>
 </head>
 <body>
   <h1>Sobre Mim</h1>
-  <img src="https://avatars.githubusercontent.com/u/134714036?v=4" alt="Foto de perfil">
-  <h2>Olá, Me chamo Rodrigues Neto</h2>
-  <p>Nascido em 26 de abril de 1998, sou apaixonado por tecnologia,esportes,música e minha familia.</p>
+  <img src="https://media.licdn.com/dms/image/D4D03AQGmK351h0jKYw/profile-displayphoto-shrink_200_200/0/1685731609402?e=1694044800&v=beta&t=fPFFAbg1GRNB4vGETWOPuRWajdsGtn6USdWjU5Jw5Qo" alt="Foto de perfil">
+  <h2>Olá,Me chamo Rodrgues Neto</h2>
+  <p>Nascido em 26 de Abril de 1998, sou apaixonado por tecnologia,esportes e minha familia.</p>
   
 
   <h3>Contato</h3>
   <div class="social-links">
-    <a href="https://www.facebook.com/seu_perfil" target="_blank">Facebook</a>
-    <a href="https://www.instagram.com/seu_perfil" target="_blank">Instagram</a>
-    <a href="https://www.linkedin.com/in/seu_perfil" target="_blank">LinkedIn</a>
-    <a href="https://www.twitter.com/seu_perfil" target="_blank">Twitter</a>
-  </div>
-
-  <script>
-    // Script opcional para abrir os links em uma nova guia
-    var socialLinks = document.querySelectorAll('.social-links a');
-    for (var i = 0; i < socialLinks.length; i++) {
-      socialLinks[i].setAttribute('target', '_blank');
-    }
-  </script>
-</body>
-</html>
+    <a href="https://www.facebook.com/RodrigoNeto" target="_blank" class="facebook"><i class="fab fa-facebook"></i> Facebook</a>
+    <a href="https://www.instagram.com/rodrigo.neto" target="_blank" class="instagram"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="https://www.linkedin.com/in/rodrigo-neto-531955279/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn</
