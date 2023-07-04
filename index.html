@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografia</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+    p {
+      color: #666;
+      line-height: 1.5;
+    }
+    .social-links {
+      margin-top: 20px;
+      text-align: center;
+    }
+    .social-links a {
+      display: inline-block;
+      margin: 5px;
+      padding: 10px;
+      color: #fff;
+      text-decoration: none;
+      background-color: #333;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sobre Mim</h1>
+  <img src="https://avatars.githubusercontent.com/u/134714036?v=4" alt="Foto de perfil">
+  <h2>Olá, Me chamo Rodrigues Neto</h2>
+  <p>Nascido em 26 de abril de 1998, sou apaixonado por tecnologia,esportes,música e minha familia.</p>
+  
+
+  <h3>Contato</h3>
+  <div class="social-links">
+    <a href="https://www.facebook.com/seu_perfil" target="_blank">Facebook</a>
+    <a href="https://www.instagram.com/seu_perfil" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/seu_perfil" target="_blank">LinkedIn</a>
+    <a href="https://www.twitter.com/seu_perfil" target="_blank">Twitter</a>
+  </div>
+
+  <script>
+    // Script opcional para abrir os links em uma nova guia
+    var socialLinks = document.querySelectorAll('.social-links a');
+    for (var i = 0; i < socialLinks.length; i++) {
+      socialLinks[i].setAttribute('target', '_blank');
+    }
+  </script>
+</body>
+</html>
