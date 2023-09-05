@@ -1,38 +1,61 @@
 
     body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(to bottom, #333, #999);
+      font-family: Arial, Sans,serif;
+      background: linear-gradient(90deg, rgba(210,19,19,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0.8491771708683473) 100%);
       padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     h1 {
       color: #fff;
       text-align: center;
     }
     body img {
-        display: block;
-    margin: 0px auto;
-    border-radius: 50%;
-border-style: solid;
-border-color: rgb(243, 239, 244);
-border-width: 10px;
-width: 300px;
+          display: block;
+          margin: 0px auto;
+          border-radius: 50%;
+          border-style: solid;
+          border-color: white;
+          border-width: 10px;
+          width: 300px;
     }
-    p {
-      color: #fff;
-      line-height: 1.5;
-    
+
+    #titulo{
+          display: flex;
+          flex-direction: column;
+          color:  rgba(210,19,19,1);
+ }
+    #info{
+      text-align: center;
+      font-family: Sans,serif;
+      font-size: 20px;
+
+    }
+
+    #contato{
+      text-align: center;
+      font-family: inherit;
+
+    }
     }
     .social-links {
       margin-top: 20px;
       text-align: center;
     }
+
+    #all{
+      display: flex;
+      flex-direction: column;
+    }
     .social-links a {
+      
       display: inline-block;
       margin: 5px;
       padding: 10px;
-      color: #fff;
+      color:  rgba(210,19,19,1);
       text-decoration: none;
-      background-color: #333;
+      background-color: black;
       border-radius: 5px;
     }
     .social-links a i {
