@@ -44,7 +44,12 @@
       flex-direction: column;
     }
     
-    #redes{
+    .redes{
       border-radius: 10px;
+      border-color: red;
+      background-color: black;
+      color:#fff;
+    font-size: 22px;
+    padding: 10px 20px;
     }
     
