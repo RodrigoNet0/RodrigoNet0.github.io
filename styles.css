@@ -38,40 +38,13 @@
       font-family: inherit;
 
     }
-    
-    .social-links {
-      margin-top: 20px;
-      text-align: center;
-      color:#fff;
-    }
 
     #all{
       display: flex;
       flex-direction: column;
     }
-    .social-links a {
-      
-      display: inline-block;
-      margin: 5px;
-      padding: 10px;
-      color:  rgba(210,19,19,1);
-      text-decoration: none;
-      background-color: black;
-      border-radius: 5px;
-    }
-    .social-links a i {
-      margin-right: 5px;
-    }
-    .social-links a.facebook i {
-      color: #3b5998;
-    }
-    .social-links a.instagram i {
-      color: #c13584;
-    }
-    .social-links a.linkedin i {
-      color: #0e76a8;
-    }
-    .social-links a.twitter i {
-      color: #1da1f2;
+    
+    #redes{
+      border-radius: 10px;
     }
     
