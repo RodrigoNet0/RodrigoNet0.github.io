@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Nunito+Sans:opsz,wght@6..12,200&display=swap');
     body {
       font-family: Arial, Sans,serif;
       background: linear-gradient(90deg, rgba(210,19,19,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,0.8491771708683473) 100%);
@@ -10,6 +11,7 @@
     h1 {
       color: #fff;
       text-align: center;
+      font-family: 'Croissant One', cursive;
     }
     body img {
           display: block;
@@ -28,9 +30,9 @@
  }
     #info{
       text-align: center;
-      font-family: Sans,serif;
-      font-size: 20px;
-
+      font-family: 'Nunito Sans', sans-serif;
+      font-family: 'Croissant One', cursive;
+f
     }
 
     #contato{
@@ -46,9 +48,9 @@
     
     .redes{
       border-radius: 10px;
-      border-color: red;
-      background-color: black;
-      color:#fff;
+      border-color: rgb(5, 0, 0);
+      background-color: rgb(199, 16, 16);
+      color:#ffffff;
     font-size: 22px;
     padding: 10px 20px;
     }
