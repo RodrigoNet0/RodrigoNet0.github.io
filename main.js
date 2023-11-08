@@ -1,3 +1,5 @@
+
+
 const githubBtn = document.getElementById("githubBtn");
 const instagramBtn = document.getElementById("instagramBtn");
 const linkedinBtn = document.getElementById("linkedinBtn");
@@ -31,3 +33,5 @@ linkedinBtn.addEventListener("click", () => {
     // Adicionar animação
     addAnimation(linkedinBtn);
 });
+
+alert("Welcome")
